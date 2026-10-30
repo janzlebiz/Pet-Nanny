@@ -1,0 +1,6 @@
+node_modules/
+dist/
+.superpowers/
+mobile/node_modules/
+mobile/.expo/
+
