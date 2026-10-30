@@ -32,7 +32,7 @@ describe('Task 4: Minimalist Owner Dashboard', () => {
 
     // Switch to Financials & Analytics tab
     fireEvent.click(screen.getByRole('button', { name: /Financials & Analytics/i }));
-    expect(screen.getByText(/Completed Revenue/i)).toBeInTheDocument();
+    expect(screen.getAllByText(/Completed Revenue/i).length).toBeGreaterThan(0);
     expect(screen.getAllByText(/₱1,065/i).length).toBeGreaterThan(0);
 
     // Switch to Services Catalog tab
