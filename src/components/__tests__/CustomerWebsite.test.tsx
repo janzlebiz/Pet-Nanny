@@ -22,7 +22,7 @@ describe('Task 3: Minimalist Customer Website', () => {
     expect(screen.getAllByText(/Overnight Care/i).length).toBeGreaterThan(0);
     expect(screen.getAllByText(/₱350/i).length).toBeGreaterThan(0);
     expect(screen.getByText(/Medication Care/i)).toBeInTheDocument();
-    expect(screen.getByText(/Daet Saving Strays/i)).toBeInTheDocument();
+    expect(screen.getAllByText(/Daet Saving Strays/i).length).toBeGreaterThan(0);
 
     // Switch reviews from Human Says to Pet Says
     expect(screen.getByText(/Krizzia is a true lifesaver!/i)).toBeInTheDocument();
