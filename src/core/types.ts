@@ -143,3 +143,4 @@ export interface DashboardMetrics {
   cancellationRatePct: number;
   servicesBreakdown: ServiceBreakdownRow[];
 }
+

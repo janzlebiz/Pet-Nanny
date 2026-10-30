@@ -373,3 +373,4 @@ export const TIME_SLOTS = [
   { value: '18:00', label: '06:00 PM' },
   { value: '19:00', label: '07:00 PM (Overnight Check-In)' },
 ];
+

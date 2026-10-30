@@ -73,3 +73,4 @@ export const App: React.FC<AppProps> = ({ store = globalPetNannyStore }) => {
 };
 
 export default App;
+

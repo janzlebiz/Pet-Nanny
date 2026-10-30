@@ -147,3 +147,4 @@ export const BookingModalOtp: React.FC<BookingModalOtpProps> = ({
     </div>
   );
 };
+

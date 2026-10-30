@@ -144,3 +144,4 @@ export function formatPhp(min: number, max?: number | null): string {
   const f = (n: number) => `₱${Math.round(n).toLocaleString('en-US')}`;
   return max && max > min ? `${f(min)}–${f(max)}` : f(min);
 }
+
